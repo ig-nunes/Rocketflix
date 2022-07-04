@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0 0;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+body {
+    background-image: linear-gradient(to top right, #1E46A3, #000000, #C12A23);
+    background-attachment: fixed;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#top-logo {
+    margin: 40px 0 30px 0;
+}
+
+#title {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+#textError {
+    font-size: 30px;
+    text-align: center;
+}
+
+.box-movie {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+#moviePoster {
+    width: 170px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.box-movie-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    margin-left: 20px;
+}
+
+#movieName {
+    margin-bottom: 20px;
+}
+
+#movieDescription {
+    color: #FFFCF9;
+    text-align: start;
+}
+
+#button-find-movie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    background-color: #E9E6E3;
+    margin: 30px 0 30px 0;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button-description {
+    width: 380px;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFCF9;
+    margin-bottom: 30px;
+}
+
